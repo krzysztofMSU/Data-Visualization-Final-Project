@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Us vs. The Universe - Data Visualization Final Project, Spring 2019"
 date:   2019-05-05 16:36:55 -0600
 categories: jekyll update
 ---
@@ -19,6 +19,9 @@ print_hi('Tom')
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+Let's see if pictures can be seen here:
+![Sample frog](/_assets/_images/sample-picture1.jpg){:class="img-responsive"}
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
