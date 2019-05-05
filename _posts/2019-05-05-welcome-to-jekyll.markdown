@@ -21,7 +21,7 @@ print_hi('Tom')
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 Let's see if pictures can be seen here:
-![Sample frog](/_assets/_images/sample-picture1.jpg){:class="img-responsive"height="400px"width="400px"}
+![Sample frog](/data-visualization-final-project/_assets/_images/sample-picture1.jpg){:class="img-responsive"height="400px"width="400px"}
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
