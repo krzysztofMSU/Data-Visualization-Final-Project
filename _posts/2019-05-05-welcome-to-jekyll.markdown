@@ -28,7 +28,8 @@ Let's see if pictures can be seen here:
 
 Let try some animated plots now:
 
-py.plot(fig, filename='Ex_5_Animation')
+![](
+https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_python/Ex_5_Animation.py)
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
