@@ -28,15 +28,15 @@ As small as we are here on the Earth, we can see that the size of our planet and
 
 Solar system:
 
-2 – computational. Comets, planets. Gravitational force of the Sun.
-
-![](?raw=true)
-
-3 – sizes of solar system.
+2 – sizes of solar system.
 
 Cluster of our observable part of universe:
 
-![](?raw=true)
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/size_solar_system.png?raw=true)
+
+3 – computational. Comets, planets. Gravitational force of the Sun.
+
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/palents_comets.png?raw=true)
 
 4 – 90% of galaxies are similar sizes, and there are huge and far away from our Milkyway.
 
