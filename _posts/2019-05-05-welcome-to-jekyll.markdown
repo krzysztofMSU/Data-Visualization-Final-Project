@@ -22,7 +22,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 Let's see if pictures can be seen here:
 
-![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/sample-picture1.jpg?raw=true)
+![]()
 
 *Sample frog*
 
