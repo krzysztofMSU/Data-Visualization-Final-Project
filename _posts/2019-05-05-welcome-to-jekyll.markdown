@@ -26,6 +26,10 @@ Let's see if pictures can be seen here:
 
 *Sample frog*
 
+Let try some animated plots now:
+
+py.plot(fig, filename='Ex_5_Animation')
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
