@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "Us vs. The Universe - Data Visualization Final Project, Spring 2019"
+title:  "Size of The Universe"
 date:   2019-05-05 16:36:55 -0600
 categories: jekyll update
 author: Brook Beyene, Chris (Krzysztof) Rabka
 ---
+## Data Visualization Final Project, Spring 2019
+
+### *Introduction*
+
 Plain-text example: `_posts`
 
 Ruby code snippet example:
@@ -16,10 +20,6 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
-
-### *Introduction*
-
-something in here
 
 ### *1. Comparison - Earth and the moon*
 Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock it with the International Space Station. We see passing Moon and get the first glimpse on the size in relation to other celestial bodies.
@@ -47,14 +47,3 @@ Cluster of our observable part of universe:
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
 ### *Summary*
-
-Final thoughts
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-
-
-
-
