@@ -22,9 +22,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 Let's see if pictures can be seen here:
 
-![]()
-
-*Sample frog*
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
 Let try some animated plots now:
 
