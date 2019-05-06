@@ -24,6 +24,8 @@ print_hi('Tom')
 Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock it with the International Space Station. We see passing Moon and get the first glimpse on the size in relation to other celestial bodies.
 As small as we are here on the Earth, we can see that the size of our planet and our Moon is big. The distance between them is already enormous.
 
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/earth_moon_iss.png?raw=true)
+
 Solar system:
 
 2 – computational. Comets, planets. Gravitational force of the Sun. 
