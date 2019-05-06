@@ -34,6 +34,8 @@ Cluster of our observable part of universe:
 
 4 – 90% of galaxies are similar sizes, and there are huge and far away from our Milkyway.
 
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/distance_velocity.png?raw=true)
+
 5 – H-R diagram: temperature, luminosity, mass, volume.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
