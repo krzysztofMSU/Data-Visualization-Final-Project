@@ -9,17 +9,7 @@ author: Brook Beyene, Chris (Krzysztof) Rabka
 
 ### *Introduction*
 
-Plain-text example: `_posts`
 
-Ruby code snippet example:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
 ### *1. Comparison - Earth and the moon*
 Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock it with the International Space Station. We see passing Moon and get the first glimpse on the size in relation to other celestial bodies.
@@ -47,3 +37,15 @@ Cluster of our observable part of universe:
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
 ### *Summary*
+
+Plain-text example: `_posts`
+
+Ruby code snippet example:
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
