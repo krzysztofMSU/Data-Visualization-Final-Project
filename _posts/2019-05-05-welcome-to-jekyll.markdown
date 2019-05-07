@@ -34,6 +34,8 @@ Next, we will check out the speed of planets while they revolve around the Sun.
 
 ### *3. Speed of Planets, a Comet and gravitational force of the Sun*
 
+Another perspective shows us the dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets and a comet on their way around the Sun. We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets and comets distorts the circular shape of the path of all planets. They all revolve in different shapes of ellipses. The comet’s path is much different from the planets, it’s path goes between planets, however most comets do not collide with planets because their path plane is not shared with the plane of planets.
+
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/palents_comets.png?raw=true)
 
 ### *4. Distance vs Luminosity*
