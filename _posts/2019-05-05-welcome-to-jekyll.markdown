@@ -7,6 +7,8 @@ author: Brook Beyene, Chris (Krzysztof) Rabka
 ---
 ## Data Visualization Final Project, Spring 2019
 
+> #### Under Construction. Expect final version May 09-10, 2019
+
 ### *Introduction*
 When we look up to the skies, we wonder how vast the universe is.
 Here we will explore the size of our known universe. First, we will check the size and distance between International Space Station, then we will compare planets with our Sun in our solar system, we will add other celestial bodies like comets and see the difference in trajectory around the Sun, we will check the difference between the distance of other galaxies and Milky Way and their velocities, lastly we will see the difference between temperature and luminosity of stars.
@@ -60,7 +62,5 @@ The brightness of a star depends on the amount of light it emits into space and 
 
 All this data, especially when visualized give us better understanding of our visible universe. We can better understand our solar system when we see the difference in size between planets. When we simulate the rotation of planets around Sun it shows us the difference of the planetary years between them. The universe expansion and the enormous distances and between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3-D visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
 
->
->#### link for the audience below
->### <https://krzysztofmsu.github.io/data-visualization-final-project/>
->
+> #### link for the audience below
+> ### <https://krzysztofmsu.github.io/data-visualization-final-project/>
