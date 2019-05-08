@@ -40,7 +40,9 @@ In the figure below the distance (x-axis) to other galaxies measured from our Mi
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/distance_velocity.png?raw=true)
 
-### *5. Hertzprung-Russell Diagram: temperature and luminosity*
+The Hertzsprung-Russell Diagram plots stars according to their surface temperatures and luminosity.
+
+### *5. Hertzprung-Russell Diagram - temperature and luminosity*
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
