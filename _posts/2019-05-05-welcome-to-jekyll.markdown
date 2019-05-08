@@ -20,15 +20,15 @@ Next, we will move out of the solar system to see all the planets and our Sun.
 
 ### *2. Sizes of the solar system*
 
-Sun is the largest and as we move away from it, we see all the planets in order. In this 3D visualization (here only the screenshot of it) we can see Earth as a tiny dot, the third object from the Sun. Here we focus on the size and the distances between planets are arbitrary in order to fit all planets in the view and still see the smaller planets. We don’t show moons here, as they would be too small to see with this too scale visualization. To see a different angle of the planets we can rotate them all around the Sun.
+Sun is the largest and as we move away from it, we see all the planets in order. In this 3D visualization (here only the screenshot of it) we can see Earth as a tiny dot, the third object from the Sun. Here our focus is on the size of planets; the distances between planets are arbitrary in order to fit all planets into the view. We don’t show moons here, as they would be too small to see with this too scale visualization. To see a different angle of the planets we can rotate them all around the Sun.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/size_solar_system.png?raw=true)
 
-Next, we will check out the speed of planets while they revolve around the Sun.
+Now let’s check out the speed of planets as they revolve around the Sun.
 
 ### *3. Speed of Planets, a Comet and gravitational force of the Sun*
 
-Another perspective shows us the dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets and a comet on their way around the Sun. We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets and comets distorts the circular shape of the path of all planets. They all revolve in different shapes of ellipses. The comet’s path is much different from the planets, it’s path goes between planets, however most comets do not collide with planets because their path plane is not shared with the plane of planets.
+Another perspective shows us a different dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets and a comet on their way around the Sun. We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets and comets distorts the circular shape of the path for all planets. They all revolve in different shapes of ellipses. The comet’s path is different from the planets, it’s path goes between planets, however most comets do not collide with planets because their path plane is not shared with the plane of planets.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/palents_comets.png?raw=true)
 
