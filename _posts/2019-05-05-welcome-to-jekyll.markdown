@@ -34,7 +34,7 @@ Another perspective shows us a different dynamic of our solar system. In the ani
 
 Latest research gave us a lot of data for the relation between distance and velocity of galaxies.
 
-4. Velocity of other galaxies away from Earth
+### *4. Velocity of other galaxies away from Earth*
 
 In the figure below the distance (x-axis) to other galaxies measured from our Milky Way and the velocity (y-axis) tell us about the expansion. A few galaxies relatively close to Milky Way move through space at similar rate and when we compare them with other galaxies much farther away from us, the velocity is exponential. For this comparison, if we consider the speed of light to be constant, we see that the difference in velocity increases at a very rapid rate.
 
