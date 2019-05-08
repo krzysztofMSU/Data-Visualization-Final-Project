@@ -7,11 +7,6 @@ author: Brook Beyene, Chris (Krzysztof) Rabka
 ---
 ## Data Visualization Final Project, Spring 2019
 
->
->#### link below
->### <https://krzysztofmsu.github.io/data-visualization-final-project/>
->
-
 ### *Introduction*
 When we look up to the skies, we wonder how vast the universe is.
 Here we will explore the size of our known universe. First, we will check the size and distance between International Space Station, then we will compare planets with our Sun in our solar system, we will add other celestial bodies like comets and see the difference in trajectory around the Sun, we will check the difference between the distance of other galaxites and Milky Way and their velocities, lastly we will see the difference between temperature and luminosity of stars.
@@ -66,3 +61,8 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
+
+>
+>#### link below
+>### <https://krzysztofmsu.github.io/data-visualization-final-project/>
+>
