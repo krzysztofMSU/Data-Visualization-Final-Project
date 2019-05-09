@@ -64,7 +64,9 @@ All this data, especially when visualized give us better understanding of our vi
 
 *Test plot below*
 
-![test link](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_html/exercise1.html?raw=true)
+[test link](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_svg/Figure_1.svg?sanitize=true)
+
+
 
 > #### link for the audience below
 > ### <https://krzysztofmsu.github.io/data-visualization-final-project/>
