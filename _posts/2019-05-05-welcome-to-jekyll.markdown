@@ -37,7 +37,7 @@ Another perspective shows us a different dynamic of our solar system. In the ani
 
 Latest research gave us a lot of data for the relation between distance and velocity of galaxies.
 
-In the figure below the distance to other galaxies is measured from our Milky Way, and the velocity with respect to the distance tells us about the expansion. Galaxies relatively close to Milky Way move through space at increaing rate, and when we compare them with other galaxies that are much farther away from us, their velocities are exponential. For this comparison we consider the speed of light to be constant and we see that the difference in the velocity increases at a very rapid rate.
+In the figure below the distance to other galaxies is measured from our Milky Way, and the velocity with respect to the distance tells us about the expansion. Galaxies relatively close to Milky Way move through space at increasing  rate, and when we compare them with other galaxies that are much farther away from us, their velocities are exponential. For this comparison we consider the speed of light to be constant and we see that the difference in the velocity increases at a very rapid rate.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/UniverseExpansionBy_Brook_and_Chris.png?raw=true)
 
