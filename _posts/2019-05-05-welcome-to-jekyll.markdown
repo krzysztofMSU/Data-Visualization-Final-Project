@@ -7,13 +7,14 @@ author: Brook Beyene, Chris (Krzysztof) Rabka
 ---
 ## Data Visualization Final Project, Spring 2019
 
+
 ### *Introduction*
 
 When we look up to the skies, we wonder how vast the universe is.
 Here we will explore the size of our known universe. First, we will take a look at the International Space Station (ISS), the Earth and the Moon, then we will compare planets with our Sun in our solar system and see the difference in their trajectory around the Sun, we will check the difference between the distance and velocity of other galaxies vs. our Milky Way, and lastly we will see the difference between mass, size, temperature and luminosity of stars.
 
 ### *Earth, International Space Station and the Moon*
-Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock with the International Space Station (ISS). We would be able to see Moon revolving around us and the Earth. This would give us our first view of the whole size of the Earth in relation to the Moon. Below is our first 3D interactive visualization (here only the screenshot of it) that lets us rotate the Moon and ISS around Earth. The ISS is farther from Earth (not to scale - it’s out beyond Earth’s outer atmosphere and its size is enlarged), otherwise the ISS would be the size of a single pixel.
+Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock with the International Space Station (ISS). We would be able to see Moon revolving around us and the Earth. This would give us our first view of the whole size of the Earth in relation to the Moon. Below is our first 3D interactive visualization, generated with [blender](https://www.blender.org/) (here only the screenshot of the end result) that lets us rotate the Moon and ISS around Earth. The ISS is farther from Earth (not to scale - it’s out beyond Earth’s outer atmosphere and its size is enlarged), otherwise the ISS would be the size of a single pixel.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/earth_moon_iss.png?raw=true)
 
