@@ -29,7 +29,7 @@ Sun is the largest and as we move away from it, we see all the planets in order.
 
 Now let’s check out the speed of planets as they revolve around the Sun.
 
-Another perspective shows us a different dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets on their way around the Sun. We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
+Another perspective shows us a different dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets on their way around the Sun (Mercury, Venus, Earth and Mars). We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/palents_comets.png?raw=true)
 
@@ -37,11 +37,11 @@ Another perspective shows us a different dynamic of our solar system. In the ani
 
 Latest research gave us a lot of data for the relation between distance and velocity of galaxies.
 
-In the figure below the distance (x-axis) to other galaxies measured from our Milky Way and the velocity (y-axis) tell us about the expansion. A few galaxies relatively close to Milky Way move through space at similar rate and when we compare them with other galaxies much farther away from us, the velocity is exponential. For this comparison, if we consider the speed of light to be constant, we see that the difference in velocity increases at a very rapid rate.
+In the figure below the distance to other galaxies is measured from our Milky Way, and the velocity with respect to distance tells us about the expansion. Galaxies relatively close to Milky Way move through space at similar rate as our galaxy, and when we compare them with other galaxies that are much farther away from us, the velocity is exponential. For this comparison, if we consider the speed of light to be constant, we see that the difference in velocity increases at a very rapid rate.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/UniverseExpansion.png?raw=true)
 
-### *Hertzprung-Russell Diagram - Stars temperature and luminosity with respect to mass*
+### *Hertzsprung-Russell Diagram - Stars temperature and luminosity with respect to mass*
 
 The Hertzsprung-Russell Diagram plots stars according to their surface temperatures and luminosity.
 
@@ -49,17 +49,17 @@ The brightness of a star depends on the amount of light it emits into space and 
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
-Below, 3D view of the H-R's size, mass and **temperature** when compared to our Sun.
+Below is 3D view of the H-R's size, mass and **temperature** when compared to our Sun.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_temperature_by_Brook_and_Chris.gif?raw=true){:height="650"width="400"}
 
-Below, 3D view of the H-R's size, mass and **luminosity** also compared to our Sun.
+Below is 3D view of the H-R's size, mass and **luminosity** also compared to our Sun.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_lumionsity_by_Brook_and_Chris.gif?raw=true){:height="650"width="400"}
 
 ### *Summary*
 
-All this data, especially when visualized give us better understanding of our visible universe. We can better understand our solar system when we see the difference in size between planets. When we simulate the rotation of planets around Sun it shows us the difference of the planetary years between them. The universe expansion and the enormous distances and between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3-D visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
+All this data, especially when visualized gives us better understanding of our visible universe. We can easier understand our solar system when we see the difference in size between planets. The simulation of the rotation of planets around Sun shows us the difference in planetary years between them. The universe expansion and enormous distances between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3 Dimensional visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
 
 <!--
 > #### link for the audience below
