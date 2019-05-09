@@ -66,14 +66,6 @@ The brightness of a star depends on the amount of light it emits into space and 
 All this data, especially when visualized give us better understanding of our visible universe. We can better understand our solar system when we see the difference in size between planets. When we simulate the rotation of planets around Sun it shows us the difference of the planetary years between them. The universe expansion and the enormous distances and between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3-D visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
 
 
-<object data="ttps://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_svg/UniverseExpansion.svg" type="image/svg+xml">
-</object>
-
-
-<body>
-<img src="https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_svg/UniverseExpansion.svg" width="750" height="500">
-</body>
-
 <a href="http://www.google.com/">
     <object data="mysvg.svg" type="image/svg+xml">
         <span>Google</span>
