@@ -13,6 +13,9 @@ author: Brook Beyene, Chris (Krzysztof) Rabka
 When we look up to the skies, we wonder how vast the universe is.
 Here we will explore the size of our known universe. First, we will check the size and distance between International Space Station, then we will compare planets with our Sun in our solar system, we will add other celestial bodies like comets and see the difference in trajectory around the Sun, we will check the difference between the distance of other galaxies and Milky Way and their velocities, lastly we will see the difference between temperature and luminosity of stars.
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61855.987609687305!2d-105.001594735001!3d39.74164234592452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c78c7fea693d9%3A0x2edb615c363b6555!2sAuraria%2C+Denver%2C+CO!5e1!3m2!1sen!2sus!4v1557375533756!5m2!1sen!2sus" width="750" height="500" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
+
 ### *Earth, International Space Station and the Moon*
 Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock with the International Space Station (ISS). We would be able to see Moon revolving around us and the Earth. This is when we would get our first view of the size in relation to other immediate celestial bodies: The Earth and The Moon. If we move a little farther and gain more distance from the Earth and the ISS, we can have even better view of Earth, ISS and the Mon. Below is our first 3D interactive visualization (here only the screenshot of it) that lets us rotate Moon and ISS around Earth. The ISS is farther from Earth (not to scale) – it’s out beyond Earth’s outer atmosphere and its size is enlarged; otherwise, if we projected real size of the ISS it would be the size of a single pixel.
 
@@ -62,9 +65,21 @@ The brightness of a star depends on the amount of light it emits into space and 
 
 All this data, especially when visualized give us better understanding of our visible universe. We can better understand our solar system when we see the difference in size between planets. When we simulate the rotation of planets around Sun it shows us the difference of the planetary years between them. The universe expansion and the enormous distances and between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3-D visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
 
-*Test plot below*
 
-[test link](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_svg/Figure_1.svg?sanitize=true)
+<object data="ttps://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_svg/UniverseExpansion.svg" type="image/svg+xml">
+</object>
+
+
+<body>
+<img src="https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_svg/UniverseExpansion.svg" width="750" height="500">
+</body>
+
+<a href="http://www.google.com/">
+    <object data="mysvg.svg" type="image/svg+xml">
+        <span>Google</span>
+    </object>
+</a>
+
 
 
 
