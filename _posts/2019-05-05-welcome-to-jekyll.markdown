@@ -29,7 +29,7 @@ Sun is the largest and as we move away from it, we see all the planets in order.
 
 Now let’s check out the speed of planets as they revolve around the Sun.
 
-Another perspective shows us a different dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets on their way around the Sun (Mercury, Venus, Earth and Mars). We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
+Another perspective shows us a different dynamic of our solar system. In the animation below we see first four planets on their way around the Sun (Mercury, Venus, Earth and Mars). We can see the difference in speed. Planets closer to the Sun revolve more frequently because their circumference of their path is shorter. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/palents_eliptical.gif?raw=true){:height="650"width="400"}
 
@@ -37,7 +37,7 @@ Another perspective shows us a different dynamic of our solar system. In the ani
 
 Latest research gave us a lot of data for the relation between distance and velocity of galaxies.
 
-In the figure below the distance to other galaxies is measured from our Milky Way, and the velocity with respect to distance tells us about the expansion. Galaxies relatively close to Milky Way move through space at similar rate as our galaxy, and when we compare them with other galaxies that are much farther away from us, the velocity is exponential. For this comparison, if we consider the speed of light to be constant, we see that the difference in velocity increases at a very rapid rate.
+In the figure below the distance to other galaxies is measured from our Milky Way, and the velocity with respect to the distance tells us about the expansion. Galaxies relatively close to Milky Way move through space at increaing rate, and when we compare them with other galaxies that are much farther away from us, their velocities are exponential. For this comparison we consider the speed of light to be constant and we see that the difference in the velocity increases at a very rapid rate.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/UniverseExpansionBy_Brook_and_Chris.png?raw=true)
 
@@ -45,7 +45,7 @@ In the figure below the distance to other galaxies is measured from our Milky Wa
 
 The Hertzsprung-Russell Diagram plots stars according to their surface temperatures and luminosity.
 
-The brightness of a star depends on the amount of light it emits into space and its distance from Earth. We can measure it through stellar parallax (apparent shift of position of any nearby star against the background of any other distant object). There are numerous classifications of stars based on their temperature and mass. The H-R diagram shows clear pattern between size, temperature and mass. The super giants in the top-right and the smallest white-dwarfs in the lower-left. Our Sun is in the group of the main-sequence stars.
+The brightness of a star depends on the amount of light it emits into space and its distance from Earth. We can measure it through stellar parallax (apparent shift of position of any nearby star against the background of any other distant object). There are numerous classifications of stars based on their temperature and luminosity. The H-R diagram shows clear pattern between luminosity, temperature and mass. The super giants in the top-right and the smallest white-dwarfs in the lower-left. Our Sun is in the group of the main-sequence stars.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
