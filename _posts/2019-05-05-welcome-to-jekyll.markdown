@@ -31,7 +31,7 @@ Now let’s check out the speed of planets as they revolve around the Sun.
 
 Another perspective shows us a different dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets on their way around the Sun (Mercury, Venus, Earth and Mars). We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
 
-![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/palents_comets.png?raw=true)
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/palents_eliptical.gif?raw=true){:height="650"width="400"}
 
 ### *Velocity of other galaxies away from Earth*
 
