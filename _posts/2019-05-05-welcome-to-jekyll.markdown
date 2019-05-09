@@ -55,7 +55,7 @@ Below, 3D view of the H-R's size, mass and **temperature** when compared to our 
 
 Below, 3D view of the H-R's size, mass and **luminosity** also compared to our Sun.
 
-![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/Size_Mass_Lumionsity.gif?raw=true){:height="650"width="400"}
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_lumionsity.gif?raw=true){:height="650"width="400"}
 
 ### *Summary*
 
