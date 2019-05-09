@@ -25,11 +25,11 @@ Sun is the largest and as we move away from it, we see all the planets in order.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/size_solar_system_new.png?raw=true)
 
-### *Speed of Planets, a Comet and gravitational force of the Sun*
+### *Speed of Planets and their gravitational forces*
 
 Now let’s check out the speed of planets as they revolve around the Sun.
 
-Another perspective shows us a different dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets and a comet on their way around the Sun. We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets and comets distorts the circular shape of the path for all planets. They all revolve in different shapes of ellipses. The comet’s path is different from the planets, its path goes between planets, however most comets do not collide with planets because their path plane is not shared with the plane of planets.
+Another perspective shows us a different dynamic of our solar system. In the animation below (here only the screenshot of it) we see planets on their way around the Sun. We can see the difference in speed. Planets closer to the Sun revolve more frequently around the Sun, this is due to shorter circumference of their path. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/palents_comets.png?raw=true)
 
@@ -63,7 +63,6 @@ All this data, especially when visualized give us better understanding of our vi
 
 *test animation*
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/test.gif?raw=true){:height="650"width="400"}
-
 
 <!--
 > #### link for the audience below
