@@ -47,7 +47,7 @@ The Hertzsprung-Russell Diagram plots stars according to their surface temperatu
 
 The brightness of a star depends on the amount of light it emits into space and its distance from Earth. We can measure it through stellar parallax (apparent shift of position of any nearby star against the background of any other distant object). There are numerous classifications of stars based on their temperature and luminosity. The H-R diagram shows clear pattern between luminosity, temperature and mass. The super giants in the top-right and the smallest white-dwarfs in the lower-left. Our Sun is in the group of the main-sequence stars.
 
-![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram_by_Brook_and_Chris.png?raw=true)
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/equation_2.png?raw=true)
 
