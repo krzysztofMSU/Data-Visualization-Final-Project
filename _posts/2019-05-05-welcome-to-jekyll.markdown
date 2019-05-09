@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Size of The Universe"
+title:  " The Size of The Universe"
 date:   2019-05-05 16:36:55 -0600
 categories: jekyll update
 author: Brook Beyene, Chris (Krzysztof) Rabka
@@ -10,18 +10,18 @@ author: Brook Beyene, Chris (Krzysztof) Rabka
 ### *Introduction*
 
 When we look up to the skies, we wonder how vast the universe is.
-Here we will explore the size of our known universe. First, we will check the size and distance between International Space Station, then we will compare planets with our Sun in our solar system and see the difference of their trajectory around the Sun, we will check the difference between the distance of other galaxies and Milky Way and their velocities, lastly we will see the difference between temperature and luminosity of stars.
+Here we will explore the size of our known universe. First, we will take a look at the International Space Station (ISS), the Earth and the Moon, then we will compare planets with our Sun in our solar system and see the difference in their trajectory around the Sun, we will check the difference between the distance and velocity of other galaxies vs. our Milky Way, and lastly we will see the difference between mass, size, temperature and luminosity of stars.
 
 ### *Earth, International Space Station and the Moon*
-Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock with the International Space Station (ISS). We would be able to see Moon revolving around us and the Earth. This is when we would get our first view of the size in relation to other immediate celestial bodies - The Earth and The Moon. If we move a little farther and gain more distance from the Earth and the ISS, we can have even better view of Earth, ISS and the Mon. Below is our first 3D interactive visualization (here only the screenshot of it) that lets us rotate Moon and ISS around Earth. The ISS is farther from Earth (not to scale) – it’s out beyond Earth’s outer atmosphere and its size is enlarged; otherwise, if we projected real size of the ISS it would be the size of a single pixel.
+Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock with the International Space Station (ISS). We would be able to see Moon revolving around us and the Earth. This would give us our first view of the whole size of the Earth in relation to the Moon. Below is our first 3D interactive visualization (here only the screenshot of it) that lets us rotate the Moon and ISS around Earth. The ISS is farther from Earth (not to scale - it’s out beyond Earth’s outer atmosphere and its size is enlarged), otherwise the ISS would be the size of a single pixel.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/earth_moon_iss.png?raw=true)
 
-### *Sizes of the solar system*
+### *Sizes of celestial bodies in our solar system*
 
 Next, we will move out of the solar system to see all the planets and our Sun.
 
-Sun is the largest and as we move away from it, we see all the planets in order. In this 3D visualization (here only the screenshot of it) we can see Earth as a tiny dot, the third object from the Sun. Here our focus is on the size of planets; the distances between planets are arbitrary in order to fit all planets into the view. We don’t show moons here, as they would be too small to see them with this too scale visualization. To see a different angle of the planets we can rotate them around the Sun.
+Sun is the largest and as we move away from it, we see all the planets in order. In this 3D visualization (here only the screenshot of it) we can see Earth as a tiny dot, the third object from the Sun. Here our focus is on the size of planets and the distances between planets are arbitrary to focus our attention on their sizes. We don’t show moons here, as they would be too small to see them with this too scale visualization. To see a different angle of the planets we can rotate them around the Sun.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/size_solar_system_new.png?raw=true)
 
