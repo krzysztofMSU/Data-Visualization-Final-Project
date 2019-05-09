@@ -49,9 +49,9 @@ The brightness of a star depends on the amount of light it emits into space and 
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
-3D view (here only the screenshot of it) of the H-R size, mass and temperature when compared to our Sun.
+3D view (here short Gif animation) of the H-R size, mass and temperature when compared to our Sun.
 
-![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/size_Mass_Temp.png?raw=true)
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_temperature.gif?raw=true){:height="650"width="400"}
 
 3D view (here only the screenshot of it) of the H-R size, mass and luminosity also compared to our Sun.
 
@@ -60,9 +60,6 @@ The brightness of a star depends on the amount of light it emits into space and 
 ### *Summary*
 
 All this data, especially when visualized give us better understanding of our visible universe. We can better understand our solar system when we see the difference in size between planets. When we simulate the rotation of planets around Sun it shows us the difference of the planetary years between them. The universe expansion and the enormous distances and between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3-D visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
-
-*test animation*
-![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/test.gif?raw=true){:height="650"width="400"}
 
 <!--
 > #### link for the audience below
