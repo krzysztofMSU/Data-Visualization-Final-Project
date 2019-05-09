@@ -49,6 +49,8 @@ The brightness of a star depends on the amount of light it emits into space and 
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/H_R_Diagram.png?raw=true)
 
+![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/equation.png?raw=true)
+
 Below is 3D view of the H-R's size, mass and **temperature** when compared to our Sun.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_temperature_by_Brook_and_Chris.gif?raw=true){:height="650"width="400"}
