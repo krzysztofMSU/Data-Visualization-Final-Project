@@ -63,7 +63,7 @@ Below is 3D view of the H-R's size, mass and **luminosity** also compared to our
 
 ### *Summary*
 
-The static, interactive and 3 Dimensional visualizations help us understand the data. We can see our solar system with difference in sizes between planets, the simulation of the rotation of planets around Sun shows us the difference in planetary orbits. The matplotlib is a agreat tool to visualize the data for universe expansion and the enormous distances between stars and galaxies.
+The static, interactive and 3 Dimensional visualizations help us understand the data. We can see our solar system with difference in sizes between planets, the simulation of the rotation of planets around Sun shows us the difference in planetary orbits. The matplotlib is a great tool to visualize the data for universe expansion and the enormous distances between stars and galaxies.
 
 <!--
 > #### link
