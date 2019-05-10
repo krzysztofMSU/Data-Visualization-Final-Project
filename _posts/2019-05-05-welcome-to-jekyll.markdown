@@ -22,7 +22,7 @@ Imagine, we are flying out of Earth’s atmosphere on a space shuttle and dock w
 
 Next, we will move out of the solar system to see all the planets and our Sun.
 
-Sun is the largest and as we move away from it, we see all the planets in order. In this 3D visualization (here only the screenshot of it) we can see Earth as a tiny dot, the third object from the Sun. Here our focus is on the size of planets and the distances between planets are arbitrary to focus our attention on their sizes. We don’t show moons here, as they would be too small to see them with this too scale visualization. To see a different angle of the planets we can rotate them around the Sun.
+Sun is the largest and as we move away from it, we see all the planets in order. In this screenshot (below) of the 3D visualization also generated with [blender](https://www.blender.org/), we can see Earth as a small ball, the second object from the Sun (mercury is very small and not visible at this scale). Here our focus is on the size of planets and the distances between planets are arbitrary to focus our attention on their sizes. We don’t show moons here, as they would be too small to see them at this scale. To see a different angle of the planets we can rotate them around the Sun in [blender](https://www.blender.org/).
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/size_solar_system_new.png?raw=true)
 
@@ -30,7 +30,7 @@ Sun is the largest and as we move away from it, we see all the planets in order.
 
 Now let’s check out the speed of planets as they revolve around the Sun.
 
-Another perspective shows us a different dynamic of our solar system. In the animation below we see first four planets on their way around the Sun (Mercury, Venus, Earth and Mars). We can see the difference in speed. Planets closer to the Sun revolve more frequently because their circumference of their path is shorter. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
+Another perspective shows us a different dynamic of our solar system. In the animation below written in [Python](https://www.python.org/) and with use of [matplotlib](https://matplotlib.org/) and [Turtle graphics](https://docs.python.org/3.3/library/turtle.html?highlight=turtle#module-turtle), we see first four planets on their way around the Sun (Mercury, Venus, Earth and Mars). We can see the difference in speed. Planets closer to the Sun revolve more frequently because their circumference of their path is shorter. We also notice the elliptical paths. The gravitational interaction of planets distorts the circular shape of the path for all of them. They all revolve in different shapes of ellipses.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/palents_eliptical.gif?raw=true){:height="650"width="400"}
 
@@ -38,13 +38,14 @@ Another perspective shows us a different dynamic of our solar system. In the ani
 
 Latest research gave us a lot of data for the relation between distance and velocity of galaxies.
 
-In the figure below the distance to other galaxies is measured from our Milky Way, and the velocity with respect to the distance tells us about the expansion. Galaxies relatively close to Milky Way move through space at increasing  rate, and when we compare them with other galaxies that are much farther away from us, their velocities are exponential. For this comparison we consider the speed of light to be constant and we see that the difference in the velocity increases at a very rapid rate.
+In the figure below also written in [Python](https://www.python.org/) and with use of [matplotlib](https://matplotlib.org/), the distance to other galaxies is measured from our Milky Way, and the velocity with respect to the distance tells us about the expansion. Galaxies relatively close to Milky Way move through space at increasing  rate, and when we compare them with other galaxies that are much farther away from us, their velocities are exponential. For this comparison we consider the speed of light to be constant and we see that the difference in the velocity increases at a very rapid rate.
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/UniverseExpansionBy_Brook_and_Chris.png?raw=true)
 
 ### *Hertzsprung-Russell Diagram - Stars temperature and luminosity with respect to mass*
 
 The Hertzsprung-Russell Diagram plots stars according to their surface temperatures and luminosity.
+([Python](https://www.python.org/), [matplotlib](https://matplotlib.org/))
 
 The brightness of a star depends on the amount of light it emits into space and its distance from Earth. We can measure it through stellar parallax (apparent shift of position of any nearby star against the background of any other distant object). There are numerous classifications of stars based on their temperature and luminosity. The H-R diagram shows clear pattern between luminosity, temperature and mass. The super giants in the top-right and the smallest white-dwarfs in the lower-left. Our Sun is in the group of the main-sequence stars.
 
@@ -52,17 +53,17 @@ The brightness of a star depends on the amount of light it emits into space and 
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/equation_2.png?raw=true)
 
-Below is 3D view of the H-R's size, mass and **temperature** when compared to our Sun.
+Below is 3D view of the H-R's size, mass and **temperature** when compared to our Sun. ([Python](https://www.python.org/), [matplotlib](https://matplotlib.org/), [pandas](https://pandas.pydata.org/), [NumPy](https://www.numpy.org/), [math](https://docs.python.org/2/library/math.html))
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_temperature_by_Brook_and_Chris.gif?raw=true){:height="650"width="400"}
 
-Below is 3D view of the H-R's size, mass and **luminosity** also compared to our Sun.
+Below is 3D view of the H-R's size, mass and **luminosity** also compared to our Sun. ([Python](https://www.python.org/), [matplotlib](https://matplotlib.org/), [pandas](https://pandas.pydata.org/), [NumPy](https://www.numpy.org/), [math](https://docs.python.org/2/library/math.html))
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_lumionsity_by_Brook_and_Chris.gif?raw=true){:height="650"width="400"}
 
 ### *Summary*
 
-All this data, especially when visualized gives us better understanding of our visible universe. We can easier understand our solar system when we see the difference in size between planets. The simulation of the rotation of planets around Sun shows us the difference in planetary years between them. The universe expansion and enormous distances between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3 Dimensional visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
+All this data, especially when visualized gives us better understanding of our visible universe. We can easier understand our solar system when we see the difference in size between planets. The simulation of the rotation of planets around Sun shows us the difference in planetary orbits. The data proves and shows the universe expansion and the enormous distances between stars and galaxies. The static, interactive and 3 Dimensional visualizations help us understand the data.
 
 <!--
 > #### link
