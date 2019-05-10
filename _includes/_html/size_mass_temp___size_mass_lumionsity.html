@@ -1,0 +1,277 @@
+<html>
+<head>
+<title>size_mass_temp___size_mass_lumionsity.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6897bb;}
+.s3 { color: #6a8759;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+size_mass_temp___size_mass_lumionsity.py</font>
+</center></td></tr></table>
+<pre><span class="s0">from </span><span class="s1">pylab </span><span class="s0">import </span><span class="s1">scatter</span><span class="s0">, </span><span class="s1">xlabel</span><span class="s0">, </span><span class="s1">ylabel</span><span class="s0">, </span><span class="s1">xlim</span><span class="s0">, </span><span class="s1">ylim</span><span class="s0">, </span><span class="s1">show</span>
+<span class="s0">from </span><span class="s1">numpy </span><span class="s0">import </span><span class="s1">loadtxt</span>
+<span class="s0">import </span><span class="s1">pandas </span><span class="s0">as </span><span class="s1">pd</span>
+<span class="s0">import </span><span class="s1">matplotlib.pyplot </span><span class="s0">as </span><span class="s1">plt</span>
+<span class="s0">import </span><span class="s1">matplotlib</span>
+<span class="s0">from </span><span class="s1">matplotlib </span><span class="s0">import </span><span class="s1">colors</span>
+<span class="s0">from </span><span class="s1">mpl_toolkits.axes_grid1.axes_divider </span><span class="s0">import </span><span class="s1">make_axes_locatable</span>
+<span class="s0">from </span><span class="s1">mpl_toolkits.axes_grid1.colorbar </span><span class="s0">import </span><span class="s1">colorbar</span>
+<span class="s0">from </span><span class="s1">math </span><span class="s0">import </span><span class="s1">pi</span><span class="s0">, </span><span class="s1">pow</span>
+<span class="s0">import </span><span class="s1">numpy </span><span class="s0">as </span><span class="s1">np</span>
+
+
+
+
+<span class="s0">class </span><span class="s1">hr_d(object):</span>
+    <span class="s0">def </span><span class="s1">__init__(self</span><span class="s0">, </span><span class="s1">file):</span>
+        self.file = file
+    <span class="s0">def </span><span class="s1">hr_diagram(self):</span>
+
+
+        stars = loadtxt(self.file<span class="s0">, </span><span class="s1">float)</span>
+        temp_star = stars[:<span class="s0">, </span><span class="s2">0</span><span class="s1">]</span>
+        lum_star = stars[:<span class="s0">, </span><span class="s2">1</span><span class="s1">]</span>
+
+        supper_g = []
+        main_seq = []
+        white_d = []
+        giants = []
+        x1 = <span class="s2">8000</span>
+        <span class="s1">y1 = </span><span class="s2">10</span>
+
+        <span class="s1">x2 = </span><span class="s2">5500</span>
+        <span class="s1">y2 = </span><span class="s2">4</span>
+
+        <span class="s0">for </span><span class="s1">i </span><span class="s0">in </span><span class="s1">range(len(stars)):</span>
+            <span class="s0">if </span><span class="s1">temp_star[i] &gt;= x1:</span>
+                <span class="s0">if </span><span class="s1">lum_star[i] &gt;= y1:</span>
+                    supper_g.append([temp_star[i]<span class="s0">, </span><span class="s1">lum_star[i]])</span>
+                <span class="s0">elif </span><span class="s1">lum_star[i] &lt; y1:</span>
+                    main_seq.append([temp_star[i]<span class="s0">, </span><span class="s1">lum_star[i]])</span>
+            <span class="s0">if </span><span class="s1">temp_star[i] &lt; x1:</span>
+                <span class="s0">if </span><span class="s1">lum_star[i] &gt; y2:</span>
+                    main_seq.append([temp_star[i]<span class="s0">, </span><span class="s1">lum_star[i]])</span>
+                <span class="s0">elif </span><span class="s1">lum_star[i] &lt; y2:</span>
+                    giants.append([temp_star[i]<span class="s0">, </span><span class="s1">lum_star[i]])</span>
+            <span class="s0">elif </span><span class="s1">temp_star[i] &lt;= x2:</span>
+                <span class="s0">if </span><span class="s1">lum_star[i] &lt; y2:</span>
+                    white_d.append([temp_star[i]<span class="s0">, </span><span class="s1">lum_star[i]])</span>
+
+        sout = [item <span class="s0">for </span><span class="s1">t </span><span class="s0">in </span><span class="s1">supper_g </span><span class="s0">for </span><span class="s1">item </span><span class="s0">in </span><span class="s1">t]</span>
+
+        sug_x = []
+        sug_y = []
+        <span class="s0">for </span><span class="s1">[i</span><span class="s0">, </span><span class="s1">j] </span><span class="s0">in </span><span class="s1">supper_g:</span>
+            sug_x.append(i)
+            sug_y.append(j)
+        msq_x = []
+        msq_y = []
+        <span class="s0">for </span><span class="s1">[i</span><span class="s0">, </span><span class="s1">j] </span><span class="s0">in </span><span class="s1">main_seq:</span>
+            msq_x.append(i)
+            msq_y.append(j)
+        wdf_x = []
+        wdf_y = []
+        <span class="s0">for </span><span class="s1">[i</span><span class="s0">, </span><span class="s1">j] </span><span class="s0">in </span><span class="s1">white_d:</span>
+            wdf_x.append(i)
+            wdf_y.append(j)
+        gnt_x = []
+        gnt_y = []
+        <span class="s0">for </span><span class="s1">[i</span><span class="s0">, </span><span class="s1">j] </span><span class="s0">in </span><span class="s1">giants:</span>
+            gnt_x.append(i)
+            gnt_y.append(j)
+
+        z = list(reversed([i <span class="s0">for </span><span class="s1">i </span><span class="s0">in </span><span class="s1">temp_star]))</span>
+
+
+
+        cmap = matplotlib.cm.get_cmap(<span class="s3">'gist_rainbow'</span><span class="s1">)</span>
+        normalize = matplotlib.colors.Normalize(vmin=min(z)<span class="s0">, </span><span class="s1">vmax=max(z))</span>
+        colors = [cmap(normalize(value)) <span class="s0">for </span><span class="s1">value </span><span class="s0">in </span><span class="s1">(z)]</span>
+
+
+        <span class="s4"># plt.title(r'$\sigma_i=15$')</span>
+        <span class="s1">fig</span><span class="s0">, </span><span class="s1">ax = plt.subplots(figsize=(</span><span class="s2">10</span><span class="s0">, </span><span class="s2">10</span><span class="s1">))</span>
+        ax.scatter(temp_star<span class="s0">, </span><span class="s1">lum_star</span><span class="s0">, </span><span class="s1">color=colors</span><span class="s0">, </span><span class="s1">s=</span><span class="s2">1</span><span class="s1">)</span>
+
+
+        <span class="s4"># ax.scatter(gnt_x, gnt_y,color=colors, s=1.75)</span>
+        # ax.scatter(wdf_x, wdf_y, s=0.75)
+        # ax.scatter(sug_x, sug_y, s=0.75)
+        # ax.scatter(msq_x, msq_y, s=0.75)
+
+        <span class="s1">cax</span><span class="s0">, </span><span class="s1">_ = matplotlib.colorbar.make_axes(ax)</span>
+        cbar = matplotlib.colorbar.ColorbarBase(cax<span class="s0">, </span><span class="s1">cmap=cmap</span><span class="s0">, </span><span class="s1">norm=normalize)</span>
+
+        ax.set_ylim([lum_star.min() - <span class="s2">5</span><span class="s0">, </span><span class="s2">20</span><span class="s1">])</span>
+
+        ax.set_xlabel(<span class="s3">'Temperature (K)'</span><span class="s1">)</span>
+        ax.set_ylabel(<span class="s3">'Luminosity ($4𝜋𝜎𝑇^4$)'</span><span class="s1">)</span>
+        ax.set_title(<span class="s3">'Hertzsprung-Russell Diagram'</span><span class="s1">)</span>
+
+        ax.set_xticklabels(list(map(int<span class="s0">, </span><span class="s1">reversed(temp_star))))</span>
+
+        ax.text(<span class="s2">700</span><span class="s0">, </span><span class="s1">-</span><span class="s2">3</span><span class="s0">, </span><span class="s3">'$White-Dwarfs$'</span><span class="s1">)</span>
+        ax.text(<span class="s2">7600</span><span class="s0">, </span><span class="s1">-</span><span class="s2">2.4</span><span class="s0">, </span><span class="s3">'$Main-Sequence$'</span><span class="s0">, </span><span class="s1">size=</span><span class="s2">10</span><span class="s1">)</span>
+        ax.text(<span class="s2">7400</span><span class="s0">, </span><span class="s2">6</span><span class="s0">, </span><span class="s3">'$Giants$'</span><span class="s0">, </span><span class="s1">size=</span><span class="s2">10</span><span class="s1">)</span>
+        ax.text(<span class="s2">8000</span><span class="s0">, </span><span class="s2">15</span><span class="s0">, </span><span class="s3">'$Supper-Giant$'</span><span class="s0">, </span><span class="s1">size=</span><span class="s2">10</span><span class="s1">)</span>
+
+
+        plt.show()
+
+
+    <span class="s0">def </span><span class="s1">find_mass_of_star(self):</span>
+        <span class="s0">from </span><span class="s1">mpl_toolkits.mplot3d </span><span class="s0">import </span><span class="s1">Axes3D</span>
+        <span class="s0">import </span><span class="s1">matplotlib.pyplot </span><span class="s0">as </span><span class="s1">plt</span>
+        <span class="s0">import </span><span class="s1">pandas </span><span class="s0">as </span><span class="s1">pd</span>
+        <span class="s0">import </span><span class="s1">seaborn </span><span class="s0">as </span><span class="s1">sns</span>
+
+        data_hr = loadtxt(self.file<span class="s0">, </span><span class="s1">float)</span>
+
+        lum_sun = [float(x) <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">data_hr[:</span><span class="s0">, </span><span class="s2">2</span><span class="s1">]]</span>
+        temp_k = [float(x) <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">data_hr[:</span><span class="s0">, </span><span class="s2">3</span><span class="s1">]]</span>
+        m_sun = [float(x) <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">data_hr[:</span><span class="s0">, </span><span class="s2">4</span><span class="s1">]]</span>
+        radius_sun = [float(x) <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">data_hr[:</span><span class="s0">, </span><span class="s2">1</span><span class="s1">]]</span>
+        time = [float(x) <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">data_hr[:</span><span class="s0">, </span><span class="s2">0</span><span class="s1">]]</span>
+
+        np.random.seed(<span class="s2">19680801</span><span class="s1">)</span>
+
+        em_power_constant = <span class="s2">5.7 </span><span class="s1">* </span><span class="s2">10 </span><span class="s1">** (-</span><span class="s2">8</span><span class="s1">)</span>
+
+
+        radius = []
+
+        z = list(reversed([i <span class="s0">for </span><span class="s1">i </span><span class="s0">in </span><span class="s1">temp_k]))</span>
+
+        normalize = matplotlib.colors.Normalize(vmin=min(z)<span class="s0">, </span><span class="s1">vmax=max(z))</span>
+        <span class="s0">for </span><span class="s1">i </span><span class="s0">in </span><span class="s1">range(len(temp_k)):</span>
+            f = <span class="s2">4 </span><span class="s1">* (pi) * em_power_constant</span>
+            l = lum_sun[i] * (<span class="s2">10 </span><span class="s1">** </span><span class="s2">31</span><span class="s1">)</span>
+            t = temp_k[i]
+            r = l / (f * (t ** <span class="s2">4</span><span class="s1">))</span>
+            radius.append((r) ** (<span class="s2">1 </span><span class="s1">/ </span><span class="s2">2</span><span class="s1">))</span>
+        <span class="s4"># fig, ax2 = plt.subplots(figsize=(10, 10))</span>
+        #
+        <span class="s1">cmap2 = matplotlib.cm.get_cmap(</span><span class="s3">'plasma'</span><span class="s1">)</span>
+        col = [cmap2(normalize(value)) <span class="s0">for </span><span class="s1">value </span><span class="s0">in </span><span class="s1">z]</span>
+
+
+
+        fig = plt.figure()
+        ax = fig.add_subplot(<span class="s2">111</span><span class="s0">, </span><span class="s1">projection=</span><span class="s3">'3d'</span><span class="s1">)</span>
+        ax.scatter(m_sun<span class="s0">, </span><span class="s1">radius_sun</span><span class="s0">, </span><span class="s1">temp_k</span><span class="s0">, </span><span class="s1">c=col</span><span class="s0">, </span><span class="s1">s=</span><span class="s2">60</span><span class="s1">)</span>
+
+        <span class="s4"># fig = plt.figure()</span>
+        # ax = fig.gca(projection='3d')
+        # ax.plot(lum_sun[::2000], temp_k[::2000], zs=m_sun[::2000], zdir='z', label='curve in (x,y)')
+        # colors = ('r', 'g', 'b', 'k')
+        #
+        # # Fixing random state for reproducibility
+        # np.random.seed(19680801)
+        #
+        # x = np.random.sample(20 * len(colors))
+        # y = np.random.sample(20 * len(colors))
+        # c_list = []
+        # for c in colors:
+        #     c_list.extend([c] * 200)
+        # # By using zdir='y', the y value of these points is fixed to the zs value 0
+        # # and the (x,y) points are plotted on the x and z axes.
+        # ax.scatter(x, y, zs=0, zdir='y', c=c_list, label='points in (x,z)')
+
+
+
+        <span class="s1">ax.set_zlabel(</span><span class="s3">'Temperature (K)'</span><span class="s1">)</span>
+        ax.set_xlabel(<span class="s3">'Mass (M☉Sun)'</span><span class="s1">)</span>
+        ax.set_ylabel(<span class="s3">'Size Compared to Sun'</span><span class="s1">)</span>
+        ax.set_title(<span class="s3">'Size and Mass Vs. Temperature'</span><span class="s1">)</span>
+        ax.view_init(<span class="s2">30</span><span class="s0">, </span><span class="s2">185</span><span class="s1">)</span>
+        plt.show()
+
+        fig = plt.figure()
+        ax = fig.gca(projection=<span class="s3">'3d'</span><span class="s1">)</span>
+
+        surf = ax.plot_trisurf(radius_sun<span class="s0">, </span><span class="s1">m_sun</span><span class="s0">, </span><span class="s1">lum_sun</span><span class="s0">, </span><span class="s1">cmap=cmap2</span><span class="s0">, </span><span class="s1">linewidth=</span><span class="s2">0.2</span><span class="s1">)</span>
+        ax.set_xlabel(<span class="s3">'Radius (1R = 695,510 km)'</span><span class="s1">)</span>
+        ax.set_ylabel(<span class="s3">'Mass (M☉Sun)'</span><span class="s1">)</span>
+        ax.set_zlabel(<span class="s3">'Luminosity ($4𝜋𝜎𝑇^4$)'</span><span class="s1">)</span>
+        ax.set_title(<span class="s3">'Size and Mass Vs. Luminosity ($4𝜋𝜎𝑇^4$)'</span><span class="s1">)</span>
+        fig.colorbar(surf<span class="s0">, </span><span class="s1">shrink=</span><span class="s2">0.5</span><span class="s0">, </span><span class="s1">aspect=</span><span class="s2">5</span><span class="s1">)</span>
+        plt.show()
+
+        <span class="s4"># plt.show()</span>
+    <span class="s0">def </span><span class="s1">converter(self</span><span class="s0">, </span><span class="s1">distance):</span>
+        d = distance
+        <span class="s4">#Distance modules to MegaParsec</span>
+
+        <span class="s1">dmp = </span><span class="s2">10</span><span class="s1">**(</span><span class="s2">1 </span><span class="s1">+ (d/ </span><span class="s2">2</span><span class="s1">))/(</span><span class="s2">1e6</span><span class="s1">)</span>
+
+        <span class="s4"># Distance of Parsec to kelometers</span>
+        <span class="s1">dmpk = dmp / (</span><span class="s2">3.085678e14</span><span class="s1">)</span>
+        <span class="s0">return </span><span class="s1">dmpk</span>
+
+
+    <span class="s0">def </span><span class="s1">galaxies(self):</span>
+
+        <span class="s0">import </span><span class="s1">statistics</span>
+
+        gf = pd.read_csv(self.file<span class="s0">, </span><span class="s1">index_col=</span><span class="s2">0</span><span class="s1">)</span>
+        galaxy_name = [x <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">gf.index]</span>
+        dist = [self.converter(x) <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">gf[</span><span class="s3">'mod0'</span><span class="s1">]]</span>
+        vgsr = [x <span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">gf[</span><span class="s3">'vgsr'</span><span class="s1">]]</span>
+        cleanedList = [x*(<span class="s2">10</span><span class="s1">**</span><span class="s2">13</span><span class="s1">) </span><span class="s0">for </span><span class="s1">x </span><span class="s0">in </span><span class="s1">vgsr </span><span class="s0">if </span><span class="s1">str(x) != </span><span class="s3">'nan'</span><span class="s1">]</span>
+        dm = statistics.stdev(cleanedList)
+        ddd = str(dm)
+
+
+        fig<span class="s0">, </span><span class="s1">ax = plt.subplots()</span>
+        tag = <span class="s3">&quot;90% of the stars are traveling</span><span class="s0">\n</span><span class="s3">with than less bellow 50,000 km/s&quot;</span>
+        <span class="s1">ax.scatter(dist</span><span class="s0">, </span><span class="s1">vgsr</span><span class="s0">, </span><span class="s1">c=</span><span class="s3">'green'</span><span class="s0">, </span><span class="s1">s=</span><span class="s2">3</span><span class="s1">)</span>
+
+
+        ax.text(<span class="s2">10</span><span class="s0">, </span><span class="s2">40000</span><span class="s0">, </span><span class="s1">tag)</span>
+        ax.set_xlabel(<span class="s3">'Distance Modulus to Megaparsecs (1 Megaparsec = 3.086x10^19 km)'</span><span class="s1">)</span>
+        ax.set_ylabel(<span class="s3">'Velocity away from Earth (km/s'</span><span class="s1">)</span>
+        ax.set_title(<span class="s3">'Universe Expansion'</span><span class="s1">)</span>
+
+
+
+
+        plt.show()
+
+<span class="s0">if </span><span class="s1">__name__ == </span><span class="s3">'__main__'</span><span class="s1">:</span>
+    <span class="s4"># hr_dg = hr_d(&quot;stars.txt&quot;)</span>
+    <span class="s1">ms_dg = hr_d(</span><span class="s3">&quot;solar_mass_advanced.txt&quot;</span><span class="s1">)</span>
+    <span class="s4"># galaxies_dg = hr_d(&quot;galaxies.csv&quot;)</span>
+    # galaxies_dg.galaxies()
+    # hr = hr_dg.hr_diagram()
+    <span class="s1">mas = ms_dg.find_mass_of_star()</span>
+
+
+
+    <span class="s3">&quot;&quot;&quot; 
+     
+    # data_hr = self.file 
+        #  
+        # field = ['Time', 'Radius (R_sun)', 'Luminosity (L_sun)', 'Surface Temperature (K)', 'Mass (M_sun)'] 
+        # lum_sun = [float(x) for x in data_hr[:, 2]] 
+        # temp_k = [float(x) for x in data_hr[:, 3]] 
+        # m_sun = [float(x) for x in data_hr[:, 4]] 
+        # radius_sun = [float(x) for x in data_hr[:, 1]] 
+        # time = [float(x) for x in data_hr[:, 0]] 
+        # # category table 
+        # stg = pd.read_csv(&quot;Book1.csv&quot;, index_col=0) 
+    &quot;&quot;&quot;</span>
+
+
+
+
+</pre>
+</body>
+</html>

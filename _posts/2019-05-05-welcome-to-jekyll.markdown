@@ -64,7 +64,10 @@ Below is 3D view of the H-R's size, mass and **luminosity** also compared to our
 
 All this data, especially when visualized gives us better understanding of our visible universe. We can easier understand our solar system when we see the difference in size between planets. The simulation of the rotation of planets around Sun shows us the difference in planetary years between them. The universe expansion and enormous distances between stars and galaxies with respect to temperature, luminosity and mass tell us how small we all are here on Earth. The interactive and 3 Dimensional visualizations help us understand the data, and the static plots support our understanding of the physics of our existence.
 
+<iframe src="file:///C:/Users/tjhxksyuru35715/DataVisFinalProject/data-visualization-final-project/_includes/_html/size_mass_temp___size_mass_lumionsity.html?raw=true" width="100%" height="500">
+</iframe>
+
 <!--
-> #### link for the audience below
+> #### link
 > ### <https://krzysztofmsu.github.io/data-visualization-final-project/>
 -->
