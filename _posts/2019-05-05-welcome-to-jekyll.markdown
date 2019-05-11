@@ -53,11 +53,11 @@ The brightness of a star depends on the amount of light it emits into space and 
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_assets/_images/equation_2.png?raw=true)
 
-Below is 3D view of the H-R's size, mass and **temperature** when compared to our Sun. ([Python](https://www.python.org/), [matplotlib](https://matplotlib.org/), [pandas](https://pandas.pydata.org/), [NumPy](https://www.numpy.org/), [math](https://docs.python.org/2/library/math.html))
+Below is 3D view of the H-R's size (comparable with our Sun), mass and **temperature**. ([Python](https://www.python.org/), [matplotlib](https://matplotlib.org/), [pandas](https://pandas.pydata.org/), [NumPy](https://www.numpy.org/), [math](https://docs.python.org/2/library/math.html))
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_temperature_by_Brook_and_Chris.gif?raw=true){:height="650"width="400"}
 
-Below is 3D view of the H-R's size, mass and **luminosity** also compared to our Sun. ([Python](https://www.python.org/), [matplotlib](https://matplotlib.org/), [pandas](https://pandas.pydata.org/), [NumPy](https://www.numpy.org/), [math](https://docs.python.org/2/library/math.html))
+Below is 3D view of the H-R's size (comparable with our Sun), mass and **luminosity**. ([Python](https://www.python.org/), [matplotlib](https://matplotlib.org/), [pandas](https://pandas.pydata.org/), [NumPy](https://www.numpy.org/), [math](https://docs.python.org/2/library/math.html))
 
 ![](https://github.com/krzysztofMSU/data-visualization-final-project/blob/gh-pages/_includes/_gif/size_mass_lumionsity_by_Brook_and_Chris.gif?raw=true){:height="650"width="400"}
 
